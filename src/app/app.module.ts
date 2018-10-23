@@ -6,6 +6,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatTabsModule} from '@angular/material/tabs';
 
+
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './header/header.component';
@@ -18,6 +19,7 @@ import { RitualsComponent } from './rituals/rituals.component';
 import { SrividyaComponent } from './srividya/srividya.component';
 import { PhotogalleryComponent } from './photogallery/photogallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { ContactComponent } from './contact/contact.component';
     FlexLayoutModule,
     FormsModule,
     MatTabsModule,
-     MDBBootstrapModule.forRoot()
+     MDBBootstrapModule.forRoot(),
+     AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
