@@ -7,16 +7,31 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
-import { SampelComponent } from './sampel/sampel.component';
+
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AboutdevipuramComponent } from './aboutdevipuram/aboutdevipuram.component';
+import { AboutgurujiComponent } from './aboutguruji/aboutguruji.component';
+import { EventsComponent } from './events/events.component';
+import { DtvComponent } from './dtv/dtv.component';
+import { RitualsComponent } from './rituals/rituals.component';
+import { SrividyaComponent } from './srividya/srividya.component';
+import { PhotogalleryComponent } from './photogallery/photogallery.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SampelComponent,
+    AppComponent,   
     HeaderComponent,
-    DashboardComponent
+    DashboardComponent,
+    AboutdevipuramComponent,
+    AboutgurujiComponent,
+    EventsComponent,
+    DtvComponent,
+    RitualsComponent,
+    SrividyaComponent,
+    PhotogalleryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
