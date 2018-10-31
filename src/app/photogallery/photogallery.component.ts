@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./photogallery.component.scss']
 })
 export class PhotogalleryComponent implements OnInit {
-
+  templeimage:string='src/images/templecomplex.jpg'
   constructor() { }
 
   ngOnInit() {

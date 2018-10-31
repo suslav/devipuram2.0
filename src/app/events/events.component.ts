@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./events.component.scss']
 })
 export class EventsComponent implements OnInit {
-
+  templeimage:string='src/images/templecomplex.jpg'
   constructor() { }
 
   ngOnInit() {

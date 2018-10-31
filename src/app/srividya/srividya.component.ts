@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./srividya.component.scss']
 })
 export class SrividyaComponent implements OnInit {
-
+  templeimage:string='src/images/templecomplex.jpg'
   constructor() { }
 
   ngOnInit() {

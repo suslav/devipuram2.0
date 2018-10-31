@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dtv.component.scss']
 })
 export class DtvComponent implements OnInit {
-
+  templeimage:string='src/images/templecomplex.jpg'
   constructor() { }
 
   ngOnInit() {
